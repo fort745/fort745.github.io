@@ -1,0 +1,21 @@
+html{
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    margin: 5% 0 3% 0;
+    padding: 20px 5%;
+    font-size: 60px;
+    background-color: #84f5c1;
+    color: rgb(12, 12, 54);
+    text-shadow: -3px 2px 0 white;
+    box-shadow: -10px 10px 0 rgb(218, 255, 230);
+}
+p {
+    padding: 0 5%;
+    color:  rgb(12, 12, 54);
+}
