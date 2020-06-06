@@ -1,33 +1,110 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Iris Li">
-        <meta name="description" content ="Iris Li (B.S. Cornell University)
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Iris Li">
+    <meta name="description" content="Iris Li (B.S. Cornell University)
          is a computer science student. This page includes her mission statement,
          highlighted projects and contact information. Please contact for work inquiries.">
-        <meta property="og:image" content="">
-        <meta property="og:title" content="Iris Li | Engineering Portfolio">
-        <link href="styles/homepage.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"> 
-        <script src="scripts/homepage.js" defer></script>
-        <title>Iris Li | Engineering Portfolio</title>
-        <link rel="icon" href="" type="image/x-icon">
-    </head>
-    <body>
-        <h1 id="Bio">Iris Li</h1>
-        <p>Currently coding this website. Stay tuned! </p>
-        <h2 id="Projects">Projects</h2>
-        <a href=""> <!--project page-->
-            <img src="" alt="">
-        </a>
-        <h2 id="Contact">Contact Me</h2>
-        <p>Email: <a href="mailto:icl5@cornell.edu">icl5@cornell.edu</a></p>
-        <a href=""> <!--social media page-->
-            <img src="" alt="LinkedIn Profile">
-        </a>
-        <a href="">
-            <img src="" alt=""> <!--Medium page-->
-        </a>
-    </body>
+    <meta property="og:image" content="">
+    <meta property="og:title" content="Iris Li | Engineering Portfolio">
+    <link href="styles/homepage.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&family=Amiko&display=swap"
+        rel="stylesheet">
+    <script src="scripts/homepage.js" defer></script>
+    <title>Iris Li | Engineering Portfolio</title>
+    <link rel="icon" href="" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="nav-group">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resume.html" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-icon">
+                <!--use js to flip icon direction and
+                        open/close with same button or on scroll-->
+                <img src="images/tab.svg" class="tab"></img>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <!--text will change from page to page-->
+        <h1>Iris Li</h1>
+        <p>Computer Science @ Cornell Engineering</p>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="projects">Projects</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <!--style each gallery item-->
+                    <a href="">
+                        <!--project page-->
+                        <img src="abc" alt="">
+                    </a>
+                    <p class="project-name">Project 1</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="">
+                        <!--project page-->
+                        <img src="abc" alt="">
+                    </a>
+                    <p class="project-name">Project 2</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="">
+                        <!--project page-->
+                        <img src="abc" alt="">
+                    </a>
+                    <p class="project-name">Project 3</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <!--<a<div class="pdf">
+         href="images/ResearchResume.pdf">Resume</a>
+        </div>-->
+    </section>
+
+    <footer>
+        <div class="socials">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="https://www.linkedin.com/in/iris-li-069612199/" target="_blank">
+                        <img src="images/linkedin.svg" alt="LinkedIn Profile">
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="mailto:icl5@cornell.edu">
+                        <img src="images/email.svg" alt="Email">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
 </html>
