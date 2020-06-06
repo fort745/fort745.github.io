@@ -90,7 +90,7 @@ nav {
 
 /*home*/
 .home {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     padding: 2rem 8rem;
     font-weight: 600;
@@ -110,28 +110,39 @@ nav {
 .projects {
     margin: 3rem 0;
     width: 100%;
-    height: 100vh; /*change later to make more responsive*/
-    background: lightblue;
-}
-#projects {
+    height: auto; /*change later to make more responsive*/
+    /*background-image: url("images/leafpattern.png");
+    background-color: #618396;
+    background-blend-mode: color;
+    background-color: lightblue;*/
     font-family: 'Amiko', sans-serif;
 }
 
-h2 {
-    margin: 2rem 0;
-    padding: 0 1rem;
+.section-title > h2 {
     color: white;
     text-shadow: -3px -2px 0px #203C56;
     font-size: 3rem;
+    position: relative;
+    top: -1.5rem;
+    
+}
+.section-title {
+    padding: 0 1.5rem;
+    margin: 2rem 0;
+    height: 3rem;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
     background: rgba(4, 15, 34, 0.76);
 }
+
 .gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .gallery-item {
-    width: 30rem;
-    height: 25rem;
+    width: 28rem;
+    height: 30rem;
     background: white;
     border-radius: 3rem;
     border: 5px solid #002C54;
